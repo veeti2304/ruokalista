@@ -1,17 +1,21 @@
-# 🍎​ Ruokalista
+# 🍎​ Ruokalista - V2
 
-### Mikä tämän projektin tarkoitus on?
-Tarkoituksena on antaa sinulle, python kehittäjälle helppo tapa hakea tietoa mistä vain ravintolasta joka käyttää Jamixin palveluita.<br>
-Esimerkiksi voit helposti tehdä skriptin joka hakee päivän kouluruoan. <br>Main tiedostossa on esimerkki joka hakee Jamixin ruokalistasta Viitaniemen Gradian pääruoan.
+### Päivitys kahden vuoden jälkeen!
+Olen päivittänyt olemassa olevan Ruokalista API wrapperini, ja olen lähinnä siistinyt sitä ja tehnyt siitä helpommin käytettävän. Jätin main branchiin vanhan version, jotta mahdollisesti sitä käyttävät projektit toimivat edelleen. Uusi versio löytyy branchista tästä eli `v2`.
 
-### Miten sitä voi käyttää?
-Helppoa! Tässä on esimerkki:
-```py
-# Esimerkki tulostaa Gradian 23.01.2024 tarjolla olleen menun JSON tiedot.
-import jamixapi
-pvm = "20240123"
-print(jamixapi.haeRuokaLista(pvm, "96786", "10"))
+### Mikä on Ruokalista?
+Ruokalista on simppeli pythonilla kirjoitettu wrapperi [Jamix](https://jamix.com/) API:lle. Kyseistä APIa käytetään monessa koulussa ja vissiin jopa ulkomailla.
+
+### Asennus
+1. Hanki python ja tarvittaessa pip ellei se tule valmiiksi bundlattuna.
+2. Asenna tarvittava kirjasto komennolla:
+```bash
+pip install requests
 ```
+Aika simppeliä, eikö?
 
-### Muut ominaisuudet
-Tällä hetkellä tästä löytyy myös ominaisuus jonka avulla voit tehdä helposti ICS-kalenteritiedoston jonka voit esim. viedä Google kalenteriisi.
+### Dokumentaatio
+Jos jaksan, kirjoitan joskus kunnon dokumentaation tälle. Sillä välin tutustu ```main.py``` esimerkki tiedostoon ja alempana linkattuun DeveloperFromJokelan gist dokumentaatioon itse API:sta.
+
+### Jamix API
+Jamix API on dokumentoitu [tässä](hhttps://gist.github.com/developerfromjokela/66a5f44fa6f887b23f1dca4d99aa49b0). Suosittelen lukemaan sen läpi, jotta saat jotain ymmärrystä siitä, miten API toimii.
