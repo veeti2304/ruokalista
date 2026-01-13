@@ -15,3 +15,6 @@ print(jamixapi.haeRuokaLista(pvm, "96786", "10"))
 
 ### Muut ominaisuudet
 Tällä hetkellä tästä löytyy myös ominaisuus jonka avulla voit tehdä helposti ICS-kalenteritiedoston jonka voit esim. viedä Google kalenteriisi.
+
+### V2
+Suosittelen vaihtamaan V2:een sillä se on paljon simppelimpi. Se löytyy v2 branchista.
