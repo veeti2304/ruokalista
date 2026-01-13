@@ -18,4 +18,4 @@ Aika simppeliä, eikö?
 Jos jaksan, kirjoitan joskus kunnon dokumentaation tälle. Sillä välin tutustu ```main.py``` esimerkki tiedostoon ja alempana linkattuun DeveloperFromJokelan gist dokumentaatioon itse API:sta.
 
 ### Jamix API
-Jamix API on dokumentoitu [jollain](https://gist.github.com/developerfromjokela/66a5f44fa6f887b23f1dca4d99aa49b0). Suosittelen lukemaan sen läpi, jotta saat jotain ymmärrystä siitä, miten API toimii.
+Jamix API on dokumentoitu [tässä](https://gist.github.com/developerfromjokela/66a5f44fa6f887b23f1dca4d99aa49b0). Suosittelen lukemaan sen läpi, jotta saat jotain ymmärrystä siitä, miten API toimii.
